@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for Dark Mode. -->
+    <style name="Base.Theme.Call_Helper" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Main background to full black -->
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+
+        <!-- Surfaces (Cards, Toolbars, etc.) to a very dark grey/black -->
+        <item name="colorSurface">#121212</item>
+        <item name="colorOnSurface">@android:color/white</item>
+
+        <!-- Primary branding colors -->
+        <item name="colorPrimary">#BB86FC</item>
+        <item name="colorOnPrimary">@android:color/black</item>
+
+        <!-- Ensure text is white in dark mode -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">#B0B0B0</item>
+    </style>
+</resources>

@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Headset -->
+    <path
+        android:fillColor="#424242"
+        android:pathData="M12,2C6.48,2 2,6.48 2,12v7c0,1.1 0.9,2 2,2h3v-8H4v-1c0,-4.41 3.59,-8 8,-8s8,3.59 8,8v1h-3v8h3c1.1,0 2,-0.9 2,-2v-7c0,-5.52 -4.48,-10 -10,-10z"/>
+    <!-- Red Bubble -->
+    <path
+        android:fillColor="#FF2D55"
+        android:pathData="M12,7c-2.76,0 -5,2.24 -5,5 0,2.05 1.23,3.81 3,4.58V19l2,-2 2,2v-2.42c1.77,-0.77 3,-2.53 3,-4.58 0,-2.76 -2.24,-5 -5,-5z"/>
+    <!-- White Person Icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,13c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zm0,1c-1.33,0 -4,0.67 -4,2v1h8v-1c0,-1.33 -2.67,-2 -4,-2z"/>
+</vector>
